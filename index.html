@@ -14,7 +14,7 @@
   </head>
   <body>
     <div class="container">
-    	<!-- Header -->
+      <!-- Header -->
       <header class="header">
         <div class="hero">
           <h2 class="heading">WPU Mers Shop</h2>
@@ -30,20 +30,86 @@
         </div>
       </header>
       <!-- Header end -->
-      
+
       <!-- Navigation -->
       <nav class="menu">
-      	<div class="brand">
-      		<h1>WPU March</h1>
-      	</div>
-      	<ul class="menu-list">
-      		<li><a href="">Home</a></li>
-      		<li><a href="">Products</a></li>
-      		<li><a href="">About</a></li>
-      		<li><a href="">Gallery</a></li>
-      	</ul>
+        <div class="menu-toggle">
+          <input type="checkbox" name="" id="" />
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="brand">
+          <h1>WPU March</h1>
+        </div>
+        <ul class="menu-list">
+          <li><a href="">Home</a></li>
+          <li><a href="">Products</a></li>
+          <li><a href="">About</a></li>
+          <li><a href="">Gallery</a></li>
+        </ul>
       </nav>
+
+      <section class="services">
+        <div class="service">
+          <div class="icon">💻</div>
+          <h3>Tutorial</h3>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptates
+            iusto id earum, similique illum molestias!
+          </p>
+        </div>
+        <div class="service">
+          <div class="icon">🎓</div>
+          <h3>Onine Cource</h3>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptates
+            iusto id earum, similique illum molestias!
+          </p>
+        </div>
+
+        <div class="service">
+          <div class="icon">🎙</div>
+          <h3>Podcast</h3>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptates
+            iusto id earum, similique illum molestias!
+          </p>
+        </div>
+
+        <div class="service">
+          <div class="icon">☂️</div>
+          <h3>Merch</h3>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptates
+            iusto id earum, similique illum molestias!
+          </p>
+        </div>
+      </section>
+
+      <section class="gallery">
+        <h2>Gallery</h2>
+        <img src="img/1.png" alt="" />
+        <img src="img/2.png" alt="" />
+        <img src="img/3.png" alt="" />
+        <img src="img/1.png" alt="" />
+        <img src="img/2.png" alt="" />
+        <img src="img/3.png" alt="" />
+        <img src="img/1.png" alt="" />
+        <img src="img/2.png" alt="" />
+        <img src="img/3.png" alt="" />
+        
+      </section>
       <!-- end Navigation -->
     </div>
+
+    <script type="text/javascript" charset="utf-8">
+      const menuToggle = document.querySelector("nav .menu-toggle input");
+      const nav = document.querySelector("nav ul");
+
+      menuToggle.addEventListener("click", function () {
+        nav.classList.toggle("slide");
+      });
+    </script>
   </body>
 </html>
