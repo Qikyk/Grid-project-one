@@ -201,7 +201,7 @@ header {
 
 
 /* Responsive breakpoint */
-@media (max-width: 1024px) {
+@media screen and (max-width: 1024px) {
   .menu {
     order: inherit;
     grid-template-columns: 1fr;
@@ -225,7 +225,7 @@ header {
     align-items: start;
   }
 }
-@media (max-width: 768px) {
+@media screen and (max-width: 768px) {
   .menu {
     order: -1;
     justify-items: end;
@@ -254,7 +254,7 @@ header {
     transform: translateY(0);
   }
 }
-@media (max-width: 600px) {
+@media screen and (max-width: 600px) {
 	body {
 		margin: 15px;
 	}
